@@ -1150,10 +1150,20 @@ p { margin: 0 0 1.5rem; color: var(--text-secondary); line-height: 1.7; }
   object-fit: cover; 
 }
 .ba .after { 
-  position: absolute; 
-  inset: 0; 
-  overflow: hidden; 
-  border-right: 3px solid var(--primary-blue); 
+  /* Base layer container for standard mode. Specific positioning handled inline for overlays. */
+}
+.ba .after.blurred {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-right: none;
+  width: 100%;
+  clip-path: inset(0 0 0 50%);
+  pointer-events: none;
+}
+.ba .after.blurred img {
+  filter: blur(var(--blur-amount, 12px));
+  transform: scale(1.02);
 }
 .ba .handle { 
   position: absolute; 
@@ -1171,6 +1181,22 @@ p { margin: 0 0 1.5rem; color: var(--text-secondary); line-height: 1.7; }
   font-weight: 700;
   cursor: grab;
 }
+
+/* Optional labels for Before/After */
+.ba .ba-label {
+  position: absolute;
+  top: 8px;
+  z-index: 2;
+  background: rgba(0,0,0,0.55);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.3px;
+}
+.ba .ba-label.before { left: 8px; }
+.ba .ba-label.after { right: 8px; }
 /* Testimonials */
 .testimonials { 
   display: grid; 
