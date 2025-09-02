@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Header from '@/app/components/Header'
 import Footer from '@/app/components/Footer'
+import CountUp from '@/app/components/CountUp'
 
 export const metadata: Metadata = {
   title: 'Our Medical Team',
@@ -102,15 +103,21 @@ export default function ProvidersPage() {
                   
                   <div className="provider-achievements">
                     <div className="achievement-item">
-                      <div className="achievement-number">15+</div>
+                      <div className="achievement-number">
+                        <CountUp end={15} suffix="+" />
+                      </div>
                       <div className="achievement-label">Years Experience</div>
                     </div>
                     <div className="achievement-item">
-                      <div className="achievement-number">10,000+</div>
+                      <div className="achievement-number">
+                        <CountUp end={10000} suffix="+" />
+                      </div>
                       <div className="achievement-label">Procedures Performed</div>
                     </div>
                     <div className="achievement-item">
-                      <div className="achievement-number">98%</div>
+                      <div className="achievement-number">
+                        <CountUp end={98} suffix="%" />
+                      </div>
                       <div className="achievement-label">Patient Satisfaction</div>
                     </div>
                   </div>
@@ -150,7 +157,7 @@ export default function ProvidersPage() {
                   <div className="provider-credentials-list">
                     <div>• PA-C Certified - Duke University</div>
                     <div>• AAFA Advanced Injection Certification</div>
-                    <div>• 5,000+ injection procedures performed</div>
+                    <div>• <CountUp end={5000} suffix="+" /> injection procedures performed</div>
                   </div>
                 </div>
               </div>

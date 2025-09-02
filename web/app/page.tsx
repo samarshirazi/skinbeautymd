@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import BeforeAfter from './components/BeforeAfter'
+import CountUp from './components/CountUp'
 
 export const metadata: Metadata = {
   title: 'Refined Aesthetic Dermatology',
@@ -23,8 +24,8 @@ export default function HomePage() {
               <div className="hero-badges">
                 <span className="badge">Board-Certified Dermatologists</span>
                 <span className="badge">FDA-Approved Treatments</span>
-                <span className="badge">20+ Years Experience</span>
-                <span className="badge">98% Patient Satisfaction</span>
+                <span className="badge"><CountUp end={20} suffix="+" /> Years Experience</span>
+                <span className="badge"><CountUp end={98} suffix="%" /> Patient Satisfaction</span>
               </div>
               
               <div className="cta-row">
@@ -37,15 +38,21 @@ export default function HomePage() {
               <div className="stats-section">
                 <div className="stat-bar">
                   <div className="stat">
-                    <div className="num">5,000+</div>
+                    <div className="num">
+                      <CountUp end={5000} suffix="+" />
+                    </div>
                     <div className="label">Patients Treated</div>
                   </div>
                   <div className="stat">
-                    <div className="num">15+</div>
+                    <div className="num">
+                      <CountUp end={15} suffix="+" />
+                    </div>
                     <div className="label">Years Experience</div>
                   </div>
                   <div className="stat">
-                    <div className="num">98%</div>
+                    <div className="num">
+                      <CountUp end={98} suffix="%" />
+                    </div>
                     <div className="label">Satisfaction Rate</div>
                   </div>
                 </div>

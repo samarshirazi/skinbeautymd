@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Header from '@/app/components/Header'
 import Footer from '@/app/components/Footer'
 import BeforeAfter from '@/app/components/BeforeAfter'
+import CountUp from '@/app/components/CountUp'
 
 export const metadata: Metadata = {
   title: 'Patient Results Gallery',
@@ -23,11 +24,15 @@ export default function ResultsPage() {
               
               <div className="results-stats">
                 <div className="stat-item">
-                  <div className="stat-number">500+</div>
+                  <div className="stat-number">
+                    <CountUp end={500} suffix="+" />
+                  </div>
                   <div className="stat-label">Documented Results</div>
                 </div>
                 <div className="stat-item">
-                  <div className="stat-number">95%</div>
+                  <div className="stat-number">
+                    <CountUp end={95} suffix="%" />
+                  </div>
                   <div className="stat-label">Patient Satisfaction</div>
                 </div>
                 <div className="stat-item">
