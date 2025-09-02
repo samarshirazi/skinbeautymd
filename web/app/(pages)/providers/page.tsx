@@ -54,7 +54,7 @@ export default function ProvidersPage() {
             <div className="medical-director">
               <div className="provider-profile featured">
                 <div className="provider-image">
-                  <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?q=80&w=800&auto=format&fit=crop" alt="Dr. Sarah Mitchell, Medical Director" />
+                  <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=800&auto=format&fit=crop" alt="Dr. Sarah Mitchell, Medical Director" />
                   <div className="provider-badge">Medical Director</div>
                 </div>
                 <div className="provider-info">
@@ -139,7 +139,7 @@ export default function ProvidersPage() {
               {/* Aesthetic Injector */}
               <div className="provider-profile">
                 <div className="provider-image">
-                  <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=600&auto=format&fit=crop" alt="Alexandra Kim, PA-C" />
+                  <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?q=80&w=600&auto=format&fit=crop" alt="Alexandra Kim, PA-C" />
                   <div className="provider-specialty">Injectable Specialist</div>
                 </div>
                 <div className="provider-info">
@@ -165,7 +165,7 @@ export default function ProvidersPage() {
               {/* Laser Specialist */}
               <div className="provider-profile">
                 <div className="provider-image">
-                  <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=600&auto=format&fit=crop" alt="Maria Rodriguez, RN" />
+                  <img src="https://images.unsplash.com/photo-1527613426441-4da17471b66d?q=80&w=600&auto=format&fit=crop" alt="Maria Rodriguez, RN" />
                   <div className="provider-specialty">Laser Expert</div>
                 </div>
                 <div className="provider-info">
@@ -191,7 +191,7 @@ export default function ProvidersPage() {
               {/* Aesthetician */}
               <div className="provider-profile">
                 <div className="provider-image">
-                  <img src="https://images.unsplash.com/photo-1594824694996-8ceaf8ec6c7a?q=80&w=600&auto=format&fit=crop" alt="Jessica Chen, LE" />
+                  <img src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?q=80&w=600&auto=format&fit=crop" alt="Jessica Chen, LE" />
                   <div className="provider-specialty">Master Aesthetician</div>
                 </div>
                 <div className="provider-info">

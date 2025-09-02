@@ -72,7 +72,7 @@ export default function TreatmentsPage() {
                 
                 <div className="treatment-grid">
                   <div className="treatment-item">
-                    <img src="https://images.unsplash.com/photo-1616394584738-fc6e61280a58?q=80&w=600&auto=format&fit=crop" alt="Botox treatment" />
+                    <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=600&auto=format&fit=crop" alt="Botox injection treatment for wrinkles" />
                     <div className="treatment-content">
                       <h4>Botox & Dysport</h4>
                       <div className="treatment-details">
@@ -92,7 +92,7 @@ export default function TreatmentsPage() {
                   </div>
                   
                   <div className="treatment-item">
-                    <img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?q=80&w=600&auto=format&fit=crop" alt="Dermal filler treatment" />
+                    <img src="https://images.unsplash.com/photo-1576670071789-9a6dc2f8ccb1?q=80&w=600&auto=format&fit=crop" alt="Lip filler injection procedure" />
                     <div className="treatment-content">
                       <h4>Dermal Fillers</h4>
                       <div className="treatment-details">
@@ -125,7 +125,7 @@ export default function TreatmentsPage() {
                 
                 <div className="treatment-grid">
                   <div className="treatment-item">
-                    <img src="https://images.unsplash.com/photo-1591348278926-10e7872f4fe7?q=80&w=600&auto=format&fit=crop" alt="Fractional CO2 laser" />
+                    <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?q=80&w=600&auto=format&fit=crop" alt="CO2 laser skin resurfacing treatment" />
                     <div className="treatment-content">
                       <h4>Fractional CO2 Laser</h4>
                       <div className="treatment-details">
@@ -145,7 +145,7 @@ export default function TreatmentsPage() {
                   </div>
                   
                   <div className="treatment-item">
-                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?q=80&w=600&auto=format&fit=crop" alt="IPL photofacial" />
+                    <img src="https://images.unsplash.com/photo-1582719471137-c3967ffb1c42?q=80&w=600&auto=format&fit=crop" alt="IPL photofacial treatment session" />
                     <div className="treatment-content">
                       <h4>IPL Photofacial</h4>
                       <div className="treatment-details">
@@ -165,7 +165,7 @@ export default function TreatmentsPage() {
                   </div>
                   
                   <div className="treatment-item">
-                    <img src="https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?q=80&w=600&auto=format&fit=crop" alt="Laser hair removal" />
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=600&auto=format&fit=crop" alt="Laser hair removal treatment" />
                     <div className="treatment-content">
                       <h4>Laser Hair Removal</h4>
                       <div className="treatment-details">
@@ -198,7 +198,7 @@ export default function TreatmentsPage() {
                 
                 <div className="treatment-grid">
                   <div className="treatment-item">
-                    <img src="https://images.unsplash.com/photo-1582139329536-e7284fece509?q=80&w=600&auto=format&fit=crop" alt="Chemical peel" />
+                    <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=600&auto=format&fit=crop" alt="Chemical peel facial treatment" />
                     <div className="treatment-content">
                       <h4>Chemical Peels</h4>
                       <div className="treatment-details">
@@ -218,7 +218,7 @@ export default function TreatmentsPage() {
                   </div>
                   
                   <div className="treatment-item">
-                    <img src="https://images.unsplash.com/photo-1505577058444-a3dab90d4253?q=80&w=600&auto=format&fit=crop" alt="Microneedling" />
+                    <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=600&auto=format&fit=crop" alt="Microneedling skin treatment" />
                     <div className="treatment-content">
                       <h4>Microneedling & RF</h4>
                       <div className="treatment-details">
@@ -251,7 +251,7 @@ export default function TreatmentsPage() {
                 
                 <div className="treatment-grid">
                   <div className="treatment-item">
-                    <img src="https://images.unsplash.com/photo-1594223274512-ad4803739b7c?q=80&w=600&auto=format&fit=crop" alt="CoolSculpting treatment" />
+                    <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?q=80&w=600&auto=format&fit=crop" alt="CoolSculpting body contouring treatment" />
                     <div className="treatment-content">
                       <h4>CoolSculpting Elite</h4>
                       <div className="treatment-details">
@@ -271,7 +271,7 @@ export default function TreatmentsPage() {
                   </div>
                   
                   <div className="treatment-item">
-                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=600&auto=format&fit=crop" alt="Body tightening treatment" />
+                    <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop" alt="RF skin tightening treatment" />
                     <div className="treatment-content">
                       <h4>Radiofrequency Skin Tightening</h4>
                       <div className="treatment-details">

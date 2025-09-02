@@ -62,8 +62,8 @@ export default function ResultsPage() {
               <div className="results-grid">
                 <div className="result-item">
                   <BeforeAfter 
-                    before="https://images.unsplash.com/photo-1616394584738-fc6e61280a58?q=80&w=600&auto=format&fit=crop" 
-                    after="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?q=80&w=600&auto=format&fit=crop" 
+                    before="https://images.unsplash.com/photo-1594824694996-8ceaf8ec6c7a?q=80&w=600&auto=format&fit=crop" 
+                    after="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=600&auto=format&fit=crop" 
                   />
                   <div className="result-details">
                     <h4>Botox for Crow's Feet</h4>
@@ -77,8 +77,8 @@ export default function ResultsPage() {
                 
                 <div className="result-item">
                   <BeforeAfter 
-                    before="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=600&auto=format&fit=crop" 
-                    after="https://images.unsplash.com/photo-1519751138087-5a4a1e14ef91?q=80&w=600&auto=format&fit=crop" 
+                    before="https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=600&auto=format&fit=crop" 
+                    after="https://images.unsplash.com/photo-1576670071789-9a6dc2f8ccb1?q=80&w=600&auto=format&fit=crop" 
                   />
                   <div className="result-details">
                     <h4>Lip Enhancement</h4>
@@ -92,8 +92,8 @@ export default function ResultsPage() {
                 
                 <div className="result-item">
                   <BeforeAfter 
-                    before="https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=600&auto=format&fit=crop" 
-                    after="https://images.unsplash.com/photo-1526045612212-70caf35c14df?q=80&w=600&auto=format&fit=crop" 
+                    before="https://images.unsplash.com/photo-1616394584738-fc6e61280a58?q=80&w=600&auto=format&fit=crop" 
+                    after="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?q=80&w=600&auto=format&fit=crop" 
                   />
                   <div className="result-details">
                     <h4>Cheek Augmentation</h4>
@@ -117,8 +117,8 @@ export default function ResultsPage() {
               <div className="results-grid">
                 <div className="result-item">
                   <BeforeAfter 
-                    before="https://images.unsplash.com/photo-1536599018102-9f803c140fc1?q=80&w=600&auto=format&fit=crop" 
-                    after="https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=600&auto=format&fit=crop" 
+                    before="https://images.unsplash.com/photo-1582139329536-e7284fece509?q=80&w=600&auto=format&fit=crop" 
+                    after="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=600&auto=format&fit=crop" 
                   />
                   <div className="result-details">
                     <h4>Fractional CO2 Resurfacing</h4>
