@@ -49,12 +49,6 @@ export default function ContactPage() {
         </section>
       </main>
       <Footer />
-      <style jsx>{`
-        .form { display:grid; gap: 12px; background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02)); border: 1px solid rgba(255,255,255,0.08); border-radius: var(--radius-md); padding: 18px; }
-        .form label { font-weight:600; font-size:14px; }
-        .form input, .form textarea, .form select { background: #0c0f15; color: var(--sb-text); border:1px solid rgba(255,255,255,0.12); border-radius: 10px; padding: 12px; font: inherit; }
-      `}</style>
     </>
   )
 }
-

@@ -87,6 +87,10 @@ p { margin: 0 0 16px; color: var(--sb-text-muted); }
 .chip { padding: 8px 12px; border-radius: 999px; border:1px solid rgba(255,255,255,0.14); color: var(--sb-text); background: rgba(255,255,255,0.04); font-size: 13px; }
 .logo-row { display:flex; flex-wrap:wrap; align-items:center; gap: 22px; opacity: 0.9; }
 .logo-row img { height: 24px; filter: grayscale(100%) contrast(120%); opacity: 0.7; }
+/* Contact form styles */
+.form { display:grid; gap: 12px; background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02)); border: 1px solid rgba(255,255,255,0.08); border-radius: var(--radius-md); padding: 18px; }
+.form label { font-weight:600; font-size:14px; }
+.form input, .form textarea, .form select { background: #0c0f15; color: var(--sb-text); border:1px solid rgba(255,255,255,0.12); border-radius: 10px; padding: 12px; font: inherit; }
 @media (max-width: 980px) {
   .hero-grid { grid-template-columns: 1fr; }
   .testimonials { grid-template-columns: 1fr; }
@@ -99,4 +103,3 @@ p { margin: 0 0 16px; color: var(--sb-text-muted); }
   .footer-grid { grid-template-columns: 1fr; }
   .grid-3, .grid-4 { grid-template-columns: 1fr; }
 }
-
