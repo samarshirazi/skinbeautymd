@@ -9,13 +9,19 @@ export default function Header() {
           <span className="brand-name">SkinBeauty MD</span>
         </Link>
         <nav className="nav-links" aria-label="Primary">
-          <Link href="/treatments">Treatments</Link>
-          <Link href="/providers">Providers</Link>
-          <Link href="/results">Results</Link>
-          <Link href="/reviews">Reviews</Link>
-          <Link href="/pricing">Pricing</Link>
-          <Link href="/blog">Blog</Link>
-          <Link href="/about">About</Link>
+          <div className="nav-dropdown">
+            <Link href="/treatments" className="nav-main">Treatments</Link>
+            <div className="dropdown-content">
+              <Link href="/treatments/laser">Laser Resurfacing</Link>
+              <Link href="/treatments/injectables">Botox & Fillers</Link>
+              <Link href="/treatments/medical">Medical Skincare</Link>
+              <Link href="/treatments/body">Body Treatments</Link>
+            </div>
+          </div>
+          <Link href="/providers">Our Doctors</Link>
+          <Link href="/results">Before & After</Link>
+          <Link href="/reviews">Patient Reviews</Link>
+          <Link href="/about">Practice</Link>
           <Link href="/contact">Contact</Link>
         </nav>
         <Link className="btn btn-primary" href="/contact">Book Consultation</Link>

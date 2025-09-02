@@ -53,12 +53,32 @@ export default function HomePage() {
               
               <div className="divider" />
               
-              <div className="text-center">
-                <p className="text-muted" style={{ marginBottom: '1rem' }}>As featured in leading medical publications</p>
-                <div className="logo-row" aria-label="Featured publications">
-                  <img alt="American Academy of Dermatology" src="https://dummyimage.com/140x32/4a5568/ffffff&text=AAD" />
-                  <img alt="Dermatology Times" src="https://dummyimage.com/140x32/4a5568/ffffff&text=Derm+Times" />
-                  <img alt="Aesthetic Surgery Journal" src="https://dummyimage.com/140x32/4a5568/ffffff&text=ASJ" />
+              <div className="credentials-section">
+                <h4 style={{ textAlign: 'center', marginBottom: '1rem', color: 'var(--text-primary)' }}>Board Certifications & Memberships</h4>
+                <div className="credential-badges">
+                  <div className="credential-badge">
+                    <div className="credential-icon">🏥</div>
+                    <div>American Board of Dermatology</div>
+                  </div>
+                  <div className="credential-badge">
+                    <div className="credential-icon">👨‍⚕️</div>
+                    <div>American Academy of Dermatology</div>
+                  </div>
+                  <div className="credential-badge">
+                    <div className="credential-icon">✨</div>
+                    <div>American Society for Aesthetic Medicine</div>
+                  </div>
+                </div>
+                
+                <div className="divider" style={{ margin: '2rem 0' }} />
+                
+                <div className="text-center">
+                  <p className="text-muted" style={{ marginBottom: '1rem' }}>As featured in leading medical publications</p>
+                  <div className="logo-row" aria-label="Featured publications">
+                    <img alt="Dermatology News" src="https://dummyimage.com/140x32/2b77b5/ffffff&text=Derm+News" />
+                    <img alt="Aesthetic Surgery Journal" src="https://dummyimage.com/140x32/2b77b5/ffffff&text=ASJ" />
+                    <img alt="JAAD" src="https://dummyimage.com/140x32/2b77b5/ffffff&text=JAAD" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -119,6 +139,76 @@ export default function HomePage() {
             </div>
             <div className="cta-row" style={{ marginTop: 16 }}>
               <a className="btn btn-outline" href="/results">Explore Gallery</a>
+            </div>
+          </div>
+        </section>
+
+        <section className="section physician-spotlight">
+          <div className="container">
+            <div className="physician-grid">
+              <div className="physician-image">
+                <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=600&auto=format&fit=crop" alt="Dr. Sarah Mitchell, Board-Certified Dermatologist" className="doctor-photo" />
+                
+                <div className="credentials-summary">
+                  <h4>Medical Excellence</h4>
+                  <ul className="credentials-list">
+                    <li>Harvard Medical School, MD</li>
+                    <li>Johns Hopkins Dermatology Residency</li>
+                    <li>Board Certified - American Board of Dermatology</li>
+                    <li>Fellowship - Mohs Surgery & Aesthetic Dermatology</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div className="physician-content">
+                <span className="eyebrow">Meet Your Dermatologist</span>
+                <h2>Dr. Sarah Mitchell, MD</h2>
+                <h3 style={{ color: 'var(--primary-blue)', marginBottom: '1.5rem' }}>Board-Certified Dermatologist & Medical Director</h3>
+                
+                <p className="lead">With over 15 years of experience in medical and aesthetic dermatology, Dr. Mitchell combines clinical expertise with an artistic approach to deliver natural, beautiful results.</p>
+                
+                <div className="expertise-areas">
+                  <h4>Areas of Expertise</h4>
+                  <div className="expertise-grid">
+                    <div className="expertise-item">
+                      <div className="expertise-icon">🔬</div>
+                      <div>
+                        <strong>Medical Dermatology</strong>
+                        <p>Skin cancer screening, acne treatment, rosacea management</p>
+                      </div>
+                    </div>
+                    <div className="expertise-item">
+                      <div className="expertise-icon">✨</div>
+                      <div>
+                        <strong>Aesthetic Procedures</strong>
+                        <p>Botox, dermal fillers, laser treatments, chemical peels</p>
+                      </div>
+                    </div>
+                    <div className="expertise-item">
+                      <div className="expertise-icon">🎯</div>
+                      <div>
+                        <strong>Advanced Lasers</strong>
+                        <p>Fractional CO2, IPL, laser hair removal, tattoo removal</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="recognition">
+                  <h4>Recognition & Awards</h4>
+                  <div className="awards-list">
+                    <span className="award">Top Doctor 2023-2024</span>
+                    <span className="award">Castle Connolly Top Doctor</span>
+                    <span className="award">Allergan Diamond Provider</span>
+                    <span className="award">Patient Choice Award</span>
+                  </div>
+                </div>
+                
+                <div className="cta-row" style={{ marginTop: '2rem' }}>
+                  <a className="btn btn-primary" href="/providers">View Full Bio</a>
+                  <a className="btn btn-outline" href="/contact">Schedule Consultation</a>
+                </div>
+              </div>
             </div>
           </div>
         </section>
