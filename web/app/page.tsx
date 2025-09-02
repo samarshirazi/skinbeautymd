@@ -14,39 +14,52 @@ export default function HomePage() {
       <Header />
       <main id="content">
         <section className="hero">
-          <div className="hero-media" aria-hidden="true" />
           <div className="container hero-grid">
-            <div className="hero-card">
-              <span className="eyebrow">Refined Results</span>
-              <h1>Elevated Aesthetic Care. <span>Clinically Proven</span>.</h1>
-              <p className="lead">Board-certified providers using advanced lasers and injectables for natural, confident results. Beautiful work that looks like you—on your best day.</p>
+            <div className="hero-content">
+              <span className="eyebrow">Premier Aesthetic Medicine</span>
+              <h1>Transform Your Skin with <span className="highlight">Expert Care</span></h1>
+              <p className="hero-subtitle">Board-certified dermatologists delivering exceptional results through advanced treatments, personalized care, and proven medical expertise.</p>
+              
               <div className="hero-badges">
-                <span className="badge">Board‑Certified Dermatology</span>
-                <span className="badge">Modern Laser Suite</span>
-                <span className="badge">500+ 5‑Star Reviews</span>
+                <span className="badge">Board-Certified Dermatologists</span>
+                <span className="badge">FDA-Approved Treatments</span>
+                <span className="badge">20+ Years Experience</span>
+                <span className="badge">98% Patient Satisfaction</span>
               </div>
+              
               <div className="cta-row">
-                <a className="btn btn-primary" href="/contact">Book Consultation</a>
+                <a className="btn btn-primary" href="/contact">Schedule Consultation</a>
                 <a className="btn btn-outline" href="/results">View Results</a>
               </div>
             </div>
-            <div>
-              <div className="stat-bar">
-                <div className="stat"><div className="num">15+</div><div className="label">Years Experience</div></div>
-                <div className="stat"><div className="num">10k+</div><div className="label">Patients Treated</div></div>
-                <div className="stat"><div className="num">98%</div><div className="label">Satisfaction</div></div>
+            
+            <div className="hero-stats">
+              <div className="stats-section">
+                <div className="stat-bar">
+                  <div className="stat">
+                    <div className="num">5,000+</div>
+                    <div className="label">Patients Treated</div>
+                  </div>
+                  <div className="stat">
+                    <div className="num">15+</div>
+                    <div className="label">Years Experience</div>
+                  </div>
+                  <div className="stat">
+                    <div className="num">98%</div>
+                    <div className="label">Satisfaction Rate</div>
+                  </div>
+                </div>
               </div>
+              
               <div className="divider" />
-              <p className="muted">Featured and trusted by leading platforms</p>
-              <div className="logo-row" aria-label="Press and partners">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img alt="Allure" src="https://dummyimage.com/120x28/ffffff/000000&text=Allure" />
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img alt="Vogue" src="https://dummyimage.com/100x28/ffffff/000000&text=Vogue" />
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img alt="RealSelf" src="https://dummyimage.com/120x28/ffffff/000000&text=RealSelf" />
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img alt="NewBeauty" src="https://dummyimage.com/140x28/ffffff/000000&text=NewBeauty" />
+              
+              <div className="text-center">
+                <p className="text-muted" style={{ marginBottom: '1rem' }}>As featured in leading medical publications</p>
+                <div className="logo-row" aria-label="Featured publications">
+                  <img alt="American Academy of Dermatology" src="https://dummyimage.com/140x32/4a5568/ffffff&text=AAD" />
+                  <img alt="Dermatology Times" src="https://dummyimage.com/140x32/4a5568/ffffff&text=Derm+Times" />
+                  <img alt="Aesthetic Surgery Journal" src="https://dummyimage.com/140x32/4a5568/ffffff&text=ASJ" />
+                </div>
               </div>
             </div>
           </div>
@@ -54,24 +67,43 @@ export default function HomePage() {
 
         <section className="section">
           <div className="container">
-            <span className="eyebrow">Signature Treatments</span>
+            <div className="section-header">
+              <span className="eyebrow">Our Specialties</span>
+              <h2>Advanced Dermatological Treatments</h2>
+              <p className="lead">Comprehensive aesthetic and medical dermatology services using the latest FDA-approved technologies and evidence-based approaches.</p>
+            </div>
+            
             <div className="grid grid-4">
               <a className="card" href="/treatments">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img className="card-media" loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1591348278926-10e7872f4fe7?q=80&w=1200&auto=format&fit=crop" alt="Laser facial treatment" />
-                <div className="card-body"><div className="card-title">Laser Rejuvenation</div><div className="card-text">Refine tone and texture with next‑gen lasers.</div></div>
+                <img className="card-media" loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1591348278926-10e7872f4fe7?q=80&w=1200&auto=format&fit=crop" alt="Advanced laser skin treatment" />
+                <div className="card-body">
+                  <div className="card-title">Laser Resurfacing</div>
+                  <div className="card-text">State-of-the-art fractional lasers for skin rejuvenation, acne scarring, and pigmentation correction.</div>
+                </div>
               </a>
+              
               <a className="card" href="/treatments">
-                <img className="card-media" loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1616394584738-fc6e61280a58?q=80&w=1200&auto=format&fit=crop" alt="Injectable treatment" />
-                <div className="card-body"><div className="card-title">Injectables</div><div className="card-text">Beautifully balanced Botox and dermal fillers.</div></div>
+                <img className="card-media" loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1616394584738-fc6e61280a58?q=80&w=1200&auto=format&fit=crop" alt="Professional injectable treatments" />
+                <div className="card-body">
+                  <div className="card-title">Injectable Treatments</div>
+                  <div className="card-text">Expert Botox, dermal fillers, and neurotoxin applications for natural facial enhancement.</div>
+                </div>
               </a>
+              
               <a className="card" href="/treatments">
-                <img className="card-media" loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1582139329536-e7284fece509?q=80&w=1200&auto=format&fit=crop" alt="Skin health program" />
-                <div className="card-body"><div className="card-title">Skin Health</div><div className="card-text">Evidence‑based plans for long‑term glow.</div></div>
+                <img className="card-media" loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1582139329536-e7284fece509?q=80&w=1200&auto=format&fit=crop" alt="Medical-grade skincare" />
+                <div className="card-body">
+                  <div className="card-title">Medical Skincare</div>
+                  <div className="card-text">Physician-grade treatments for acne, rosacea, melasma, and anti-aging protocols.</div>
+                </div>
               </a>
+              
               <a className="card" href="/treatments">
-                <img className="card-media" loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1594223274512-ad4803739b7c?q=80&w=1200&auto=format&fit=crop" alt="Body contouring" />
-                <div className="card-body"><div className="card-title">Body Contouring</div><div className="card-text">Tighten and sculpt with proven devices.</div></div>
+                <img className="card-media" loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1594223274512-ad4803739b7c?q=80&w=1200&auto=format&fit=crop" alt="Body rejuvenation treatments" />
+                <div className="card-body">
+                  <div className="card-title">Body Treatments</div>
+                  <div className="card-text">Non-invasive body contouring, skin tightening, and cellulite reduction therapies.</div>
+                </div>
               </a>
             </div>
           </div>
@@ -91,36 +123,64 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section className="section">
-          <div className="container testimonials">
-            <div>
-              <span className="eyebrow">Patient Reviews</span>
-              <h2>Trusted care, beautiful results</h2>
-              <p className="lead">“I wanted natural, refined results and that’s exactly what I got. The team is caring, precise, and truly listens.”</p>
-              <div className="chip-row" style={{ marginTop: 10 }}>
-                <span className="chip">Google ★ 4.9</span>
-                <span className="chip">RealSelf Top Doctor</span>
-                <span className="chip">Allergan Top 500</span>
+        <section className="section" style={{ background: 'var(--secondary-gray)' }}>
+          <div className="container">
+            <div className="testimonials">
+              <div className="testimonials-content">
+                <span className="eyebrow">Patient Testimonials</span>
+                <h2>Exceptional Results, Exceptional Care</h2>
+                <p className="lead">Our patients consistently experience outstanding outcomes and world-class service from our board-certified team.</p>
+                
+                <div className="trust-badges">
+                  <div className="trust-badge">★ 4.9 Google Reviews</div>
+                  <div className="trust-badge">Top 1% RealSelf</div>
+                  <div className="trust-badge">Allergan Diamond</div>
+                  <div className="trust-badge">AAD Certified</div>
+                </div>
               </div>
-            </div>
-            <div className="grid">
-              <div className="review"><div className="stars">★★★★★</div><div>“The best injectable experience I’ve ever had. Subtle yet transformative.”</div><div className="reviewer">— A.R.</div></div>
-              <div className="review"><div className="stars">★★★★★</div><div>“Laser results that look airbrushed in person. I’m glowing.”</div><div className="reviewer">— J.M.</div></div>
-              <div className="review"><div className="stars">★★★★★</div><div>“Expert guidance and a plan that finally worked for my skin.”</div><div className="reviewer">— S.K.</div></div>
+              
+              <div className="testimonials-reviews">
+                <div className="review">
+                  <div className="stars">★★★★★</div>
+                  <div className="review-text">"Dr. Smith transformed my skin with laser treatments. The results exceeded my expectations, and the entire team was incredibly professional and knowledgeable."</div>
+                  <div className="reviewer">— Sarah M.</div>
+                </div>
+                
+                <div className="review">
+                  <div className="stars">★★★★★</div>
+                  <div className="review-text">"Best Botox and filler work I've ever had. Natural-looking results that enhance my features rather than change them completely."</div>
+                  <div className="reviewer">— Jennifer L.</div>
+                </div>
+                
+                <div className="review">
+                  <div className="stars">★★★★★</div>
+                  <div className="review-text">"The medical-grade skincare regimen they designed cleared my acne and gave me the confidence I'd been missing for years."</div>
+                  <div className="reviewer">— Michael R.</div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
 
         <section className="section">
           <div className="container">
-            <div className="hero-card" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 18, flexWrap: 'wrap' }}>
-              <div>
-                <h3 style={{ margin: '0 0 6px' }}>Ready to start?</h3>
-                <p style={{ margin: 0 }} className="muted">Book a consultation or send a message—we’ll guide you.</p>
+            <div className="highlight-box">
+              <span className="eyebrow">Ready to Begin?</span>
+              <h2>Schedule Your Personal Consultation</h2>
+              <p className="lead">Meet with our board-certified dermatologists to discuss your goals and create a personalized treatment plan tailored to your unique needs.</p>
+              
+              <div className="cta-row" style={{ justifyContent: 'center', marginTop: '2rem' }}>
+                <a className="btn btn-primary" href="/contact">Book Free Consultation</a>
+                <a className="btn btn-outline" href="tel:+1-555-SKIN-MD">Call (555) SKIN-MD</a>
               </div>
-              <div className="cta-row" style={{ margin: 0 }}>
-                <a className="btn btn-primary" href="/contact">Book Consultation</a>
-                <a className="btn btn-outline" href="tel:+1-000-000-0000">Call Us</a>
+              
+              <div style={{ marginTop: '2rem' }}>
+                <ul className="feature-list" style={{ maxWidth: '400px', margin: '0 auto' }}>
+                  <li>Comprehensive skin analysis</li>
+                  <li>Personalized treatment recommendations</li>
+                  <li>No-pressure consultation</li>
+                  <li>Same-day treatment available</li>
+                </ul>
               </div>
             </div>
           </div>
