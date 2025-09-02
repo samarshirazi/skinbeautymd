@@ -140,9 +140,9 @@ export default function HomePage() {
           <div className="container">
             <span className="eyebrow">Before & After</span>
             <div className="grid grid-3">
-              <BeforeAfter before="https://images.unsplash.com/photo-1594824694996-8ceaf8ec6c7a?q=80&w=1200&auto=format&fit=crop" after="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1200&auto=format&fit=crop" />
-              <BeforeAfter before="https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=1200&auto=format&fit=crop" after="https://images.unsplash.com/photo-1576670071789-9a6dc2f8ccb1?q=80&w=1200&auto=format&fit=crop" />
-              <BeforeAfter before="https://images.unsplash.com/photo-1582139329536-e7284fece509?q=80&w=1200&auto=format&fit=crop" after="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=1200&auto=format&fit=crop" />
+              <BeforeAfter before="https://picsum.photos/id/870/1200/800?grayscale" after="https://picsum.photos/id/870/1200/800" />
+              <BeforeAfter before="https://picsum.photos/id/583/1200/800?grayscale" after="https://picsum.photos/id/583/1200/800" />
+              <BeforeAfter before="https://picsum.photos/id/839/1200/800?grayscale" after="https://picsum.photos/id/839/1200/800" />
             </div>
             <div className="cta-row" style={{ marginTop: 16 }}>
               <a className="btn btn-outline" href="/results">Explore Gallery</a>
@@ -287,4 +287,3 @@ export default function HomePage() {
     </>
   )
 }
-

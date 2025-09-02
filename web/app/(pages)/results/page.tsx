@@ -62,8 +62,8 @@ export default function ResultsPage() {
               <div className="results-grid">
                 <div className="result-item">
                   <BeforeAfter 
-                    before="https://fastly.picsum.photos/id/646/1920/1080.jpg?grayscale&hmac=epWyvYVPeZdtzlTSYmoHwbbyYfT2hZ7rwDnARgHnEmo" 
-                    after="https://fastly.picsum.photos/id/646/1920/1080.jpg?hmac=Xe4hAUBmjMXkIuSq2saByGRJOPcDVoSg3903gwoeTEU" 
+                    before="https://picsum.photos/id/646/600/400?grayscale" 
+                    after="https://picsum.photos/id/646/600/400" 
                   />
                   <div className="result-details">
                     <h4>Botox for Crow's Feet</h4>
@@ -77,8 +77,8 @@ export default function ResultsPage() {
                 
                 <div className="result-item">
                   <BeforeAfter 
-                    before="https://fastly.picsum.photos/id/646/1920/1080.jpg?grayscale&hmac=epWyvYVPeZdtzlTSYmoHwbbyYfT2hZ7rwDnARgHnEmo" 
-                    after="https://fastly.picsum.photos/id/646/1920/1080.jpg?hmac=Xe4hAUBmjMXkIuSq2saByGRJOPcDVoSg3903gwoeTEU" 
+                    before="https://picsum.photos/id/1024/600/400?grayscale" 
+                    after="https://picsum.photos/id/1024/600/400" 
                   />
                   <div className="result-details">
                     <h4>Lip Enhancement</h4>
@@ -92,8 +92,8 @@ export default function ResultsPage() {
                 
                 <div className="result-item">
                   <BeforeAfter 
-                    before="https://fastly.picsum.photos/id/646/1920/1080.jpg?grayscale&hmac=epWyvYVPeZdtzlTSYmoHwbbyYfT2hZ7rwDnARgHnEmo" 
-                    after="https://fastly.picsum.photos/id/646/1920/1080.jpg?hmac=Xe4hAUBmjMXkIuSq2saByGRJOPcDVoSg3903gwoeTEU" 
+                    before="https://picsum.photos/id/1025/600/400?grayscale" 
+                    after="https://picsum.photos/id/1025/600/400" 
                   />
                   <div className="result-details">
                     <h4>Cheek Augmentation</h4>
@@ -117,8 +117,8 @@ export default function ResultsPage() {
               <div className="results-grid">
                 <div className="result-item">
                   <BeforeAfter 
-                    before="https://fastly.picsum.photos/id/646/1920/1080.jpg?grayscale&hmac=epWyvYVPeZdtzlTSYmoHwbbyYfT2hZ7rwDnARgHnEmo" 
-                    after="https://fastly.picsum.photos/id/646/1920/1080.jpg?hmac=Xe4hAUBmjMXkIuSq2saByGRJOPcDVoSg3903gwoeTEU" 
+                    before="https://picsum.photos/id/1035/600/400?grayscale" 
+                    after="https://picsum.photos/id/1035/600/400" 
                   />
                   <div className="result-details">
                     <h4>Fractional CO2 Resurfacing</h4>
@@ -132,8 +132,8 @@ export default function ResultsPage() {
                 
                 <div className="result-item">
                   <BeforeAfter 
-                    before="https://fastly.picsum.photos/id/646/1920/1080.jpg?grayscale&hmac=epWyvYVPeZdtzlTSYmoHwbbyYfT2hZ7rwDnARgHnEmo" 
-                    after="https://fastly.picsum.photos/id/646/1920/1080.jpg?hmac=Xe4hAUBmjMXkIuSq2saByGRJOPcDVoSg3903gwoeTEU" 
+                    before="https://picsum.photos/id/1037/600/400?grayscale" 
+                    after="https://picsum.photos/id/1037/600/400" 
                   />
                   <div className="result-details">
                     <h4>IPL Photofacial</h4>
@@ -147,8 +147,8 @@ export default function ResultsPage() {
                 
                 <div className="result-item">
                   <BeforeAfter 
-                    before="https://fastly.picsum.photos/id/646/1920/1080.jpg?grayscale&hmac=epWyvYVPeZdtzlTSYmoHwbbyYfT2hZ7rwDnARgHnEmo" 
-                    after="https://fastly.picsum.photos/id/646/1920/1080.jpg?hmac=Xe4hAUBmjMXkIuSq2saByGRJOPcDVoSg3903gwoeTEU" 
+                    before="https://picsum.photos/id/1041/600/400?grayscale" 
+                    after="https://picsum.photos/id/1041/600/400" 
                   />
                   <div className="result-details">
                     <h4>Laser Hair Removal</h4>
@@ -172,8 +172,8 @@ export default function ResultsPage() {
               <div className="results-grid">
                 <div className="result-item">
                   <BeforeAfter 
-                    before="https://fastly.picsum.photos/id/646/1920/1080.jpg?grayscale&hmac=epWyvYVPeZdtzlTSYmoHwbbyYfT2hZ7rwDnARgHnEmo" 
-                    after="https://fastly.picsum.photos/id/646/1920/1080.jpg?hmac=Xe4hAUBmjMXkIuSq2saByGRJOPcDVoSg3903gwoeTEU" 
+                    before="https://picsum.photos/id/237/600/400?grayscale" 
+                    after="https://picsum.photos/id/237/600/400" 
                   />
                   <div className="result-details">
                     <h4>Chemical Peel Series</h4>
@@ -187,8 +187,8 @@ export default function ResultsPage() {
                 
                 <div className="result-item">
                   <BeforeAfter 
-                    before="https://fastly.picsum.photos/id/646/1920/1080.jpg?grayscale&hmac=epWyvYVPeZdtzlTSYmoHwbbyYfT2hZ7rwDnARgHnEmo" 
-                    after="https://fastly.picsum.photos/id/646/1920/1080.jpg?hmac=Xe4hAUBmjMXkIuSq2saByGRJOPcDVoSg3903gwoeTEU" 
+                    before="https://picsum.photos/id/1003/600/400?grayscale" 
+                    after="https://picsum.photos/id/1003/600/400" 
                   />
                   <div className="result-details">
                     <h4>Microneedling with RF</h4>
@@ -202,8 +202,8 @@ export default function ResultsPage() {
                 
                 <div className="result-item">
                   <BeforeAfter 
-                    before="https://fastly.picsum.photos/id/646/1920/1080.jpg?grayscale&hmac=epWyvYVPeZdtzlTSYmoHwbbyYfT2hZ7rwDnARgHnEmo" 
-                    after="https://fastly.picsum.photos/id/646/1920/1080.jpg?hmac=Xe4hAUBmjMXkIuSq2saByGRJOPcDVoSg3903gwoeTEU" 
+                    before="https://picsum.photos/id/1008/600/400?grayscale" 
+                    after="https://picsum.photos/id/1008/600/400" 
                   />
                   <div className="result-details">
                     <h4>Acne Treatment Program</h4>
@@ -243,8 +243,8 @@ export default function ResultsPage() {
                 </div>
                 <div className="testimonial-image">
                   <BeforeAfter 
-                    before="https://fastly.picsum.photos/id/646/1920/1080.jpg?grayscale&hmac=epWyvYVPeZdtzlTSYmoHwbbyYfT2hZ7rwDnARgHnEmo" 
-                    after="https://fastly.picsum.photos/id/646/1920/1080.jpg?hmac=Xe4hAUBmjMXkIuSq2saByGRJOPcDVoSg3903gwoeTEU" 
+                    before="https://picsum.photos/id/1011/400/400?grayscale" 
+                    after="https://picsum.photos/id/1011/400/400" 
                   />
                 </div>
               </div>
@@ -264,8 +264,8 @@ export default function ResultsPage() {
                 </div>
                 <div className="testimonial-image">
                   <BeforeAfter 
-                    before="https://fastly.picsum.photos/id/646/1920/1080.jpg?grayscale&hmac=epWyvYVPeZdtzlTSYmoHwbbyYfT2hZ7rwDnARgHnEmo" 
-                    after="https://fastly.picsum.photos/id/646/1920/1080.jpg?hmac=Xe4hAUBmjMXkIuSq2saByGRJOPcDVoSg3903gwoeTEU" 
+                    before="https://picsum.photos/id/1015/400/400?grayscale" 
+                    after="https://picsum.photos/id/1015/400/400" 
                   />
                 </div>
               </div>
