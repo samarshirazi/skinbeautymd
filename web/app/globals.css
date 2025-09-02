@@ -607,6 +607,15 @@ p { margin: 0 0 1.5rem; color: var(--text-secondary); line-height: 1.7; }
   .credential-badges {
     grid-template-columns: 1fr;
   }
+  .consultation-types {
+    grid-template-columns: 1fr;
+  }
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  .treatment-checkboxes {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 768px) {
@@ -636,6 +645,24 @@ p { margin: 0 0 1.5rem; color: var(--text-secondary); line-height: 1.7; }
   .btn {
     width: 100%;
     justify-content: center;
+  }
+  .consultation-form {
+    padding: 2rem 1.5rem;
+  }
+  .consultation-benefits {
+    grid-template-columns: 1fr;
+  }
+  .benefit-item {
+    text-align: center;
+    flex-direction: column;
+  }
+  .contact-options {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-large {
+    min-width: auto;
+    width: 100%;
   }
 }
 
@@ -720,6 +747,366 @@ p { margin: 0 0 1.5rem; color: var(--text-secondary); line-height: 1.7; }
 .credential-icon {
   font-size: 1.5rem;
   flex-shrink: 0;
+}
+
+/* Professional Consultation Form */
+.consultation-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.consultation-benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.benefit-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: var(--surface-accent);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  text-align: left;
+}
+
+.benefit-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.benefit-item strong {
+  display: block;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.benefit-item p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.consultation-form-container {
+  background: var(--primary-white);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+
+.consultation-form {
+  padding: 3rem;
+}
+
+.form-section {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.form-section:last-of-type {
+  border-bottom: none;
+  margin-bottom: 2rem;
+}
+
+.form-section h3 {
+  color: var(--primary-blue);
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.form-help {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 1rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  background: var(--primary-white);
+  border: 2px solid var(--border-medium);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary-blue);
+  box-shadow: 0 0 0 3px rgba(43, 119, 181, 0.1);
+}
+
+.form-group input:invalid {
+  border-color: #e53e3e;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Consultation Type Options */
+.consultation-types {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.consultation-option {
+  position: relative;
+  cursor: pointer;
+}
+
+.consultation-option input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.option-content {
+  padding: 2rem;
+  background: var(--surface-accent);
+  border: 2px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  text-align: center;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.consultation-option input[type="radio"]:checked + .option-content {
+  border-color: var(--primary-blue);
+  background: rgba(43, 119, 181, 0.05);
+}
+
+.consultation-option input[type="radio"]:checked + .option-content::after {
+  content: '✓';
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 24px;
+  height: 24px;
+  background: var(--primary-blue);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.option-content strong {
+  display: block;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  font-size: 1.125rem;
+}
+
+.option-content p {
+  color: var(--text-secondary);
+  margin: 0 0 1rem;
+}
+
+.price {
+  background: var(--accent-teal);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Treatment Checkboxes */
+.treatment-checkboxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
+  background: var(--surface-accent);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.checkbox-item:hover {
+  background: var(--primary-white);
+  border-color: var(--border-medium);
+}
+
+.checkbox-item input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.checkmark {
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--border-medium);
+  border-radius: var(--radius-sm);
+  background: var(--primary-white);
+  position: relative;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.checkbox-item input[type="checkbox"]:checked ~ .checkmark {
+  background: var(--primary-blue);
+  border-color: var(--primary-blue);
+}
+
+.checkbox-item input[type="checkbox"]:checked ~ .checkmark::after {
+  content: '✓';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.checkbox-item.required {
+  border-color: var(--accent-gold);
+  background: rgba(214, 158, 46, 0.05);
+}
+
+/* Consent Checkboxes */
+.consent-checkboxes {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.consent-checkboxes .checkbox-item {
+  padding: 1.5rem;
+  align-items: flex-start;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Form Actions */
+.form-actions {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.btn-large {
+  font-size: 1.125rem;
+  padding: 1rem 3rem;
+  min-width: 280px;
+}
+
+.alternative-contact {
+  margin-top: 2rem;
+}
+
+.alternative-contact p {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+.contact-options {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Form Footer */
+.form-footer {
+  border-top: 1px solid var(--border-light);
+  padding-top: 2rem;
+  margin-top: 2rem;
+}
+
+.privacy-notice {
+  background: var(--surface-accent);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.privacy-notice p {
+  margin-bottom: 1rem;
+}
+
+.privacy-notice p:last-child {
+  margin-bottom: 0;
+}
+
+.privacy-notice strong {
+  color: var(--primary-blue);
+}
+
+.privacy-notice a {
+  color: var(--primary-blue);
+  text-decoration: underline;
+}
+
+.next-steps {
+  background: rgba(43, 119, 181, 0.05);
+  border: 1px solid rgba(43, 119, 181, 0.2);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+}
+
+.next-steps h4 {
+  color: var(--primary-blue);
+  margin-bottom: 1rem;
+}
+
+.next-steps ol {
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+}
+
+.next-steps li {
+  margin-bottom: 0.5rem;
+  color: var(--text-secondary);
 }
 
 /* Physician Spotlight */
